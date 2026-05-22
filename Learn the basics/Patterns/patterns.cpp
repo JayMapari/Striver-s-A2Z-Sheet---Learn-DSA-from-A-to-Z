@@ -9,6 +9,10 @@ int main() {
 //     cout << endl;
 // }
 
+
+
+
+// jay
 // for(int i = 1; i <= 5; i++){
 //     for(int a = 1; a <=  i; a++ ){
 //         cout << "*";
