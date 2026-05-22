@@ -1,0 +1,17 @@
+# Ignore generated executable files
+*.exe
+*.out
+*.obj
+*.o
+
+# Ignore VS Code workspace settings and IDE files
+.vscode/
+
+# Ignore temporary and OS files
+*.log
+*.tmp
+*.swp
+*.user
+*.suo
+*.DS_Store
+Thumbs.db
