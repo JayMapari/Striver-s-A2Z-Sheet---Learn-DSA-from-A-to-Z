@@ -121,16 +121,20 @@ void pattern9(int n){
     }
 }
 void pattern10(int n){
-    for(int i = 1; i <= n; i++){
-        for(char c = 'A'; c <= 'A'+i; c++){
-            cout << c;
+    int stars = 1;
+    for(int i = 1; i <= 2*n-1; i++){
+        if(i > n){
+            stars--;
+        }
+        for(int j = 1; j <= stars;j++){
+            cout << "*";
+        }
+        if(i<n){
+            stars++;
         }
         cout << endl;
     }
 }
-
-
-
 void pattern11(int n){
     int ans = 1;
     for(int i = 1; i <= n; i++){
@@ -146,6 +150,22 @@ void pattern11(int n){
         cout << endl;
     }
 }
+void pattern12(int n){
+    int space = 2*(n-1);
+    for(int i = 1; i <= n; i++){
+        for(int j = 1; j <= i;j++){
+            cout << j;
+        }
+        for(int j = 1 ; j<= space;j++){
+            cout << " ";
+        }
+        for(int j = i; j >= 1; j--){
+            cout << j;
+        }
+        space = space - 2;
+        cout << endl;
+    }
+}
 void pattern13(int n){
     int ans = 1;
     for(int i = 1; i <= n; i++){
@@ -156,7 +176,64 @@ void pattern13(int n){
         cout << endl;
     }
 }
+void pattern14(int n){
+    for(int i = 1; i <= n; i++){
+        for(char c = 'A'; c <= 'A'+i; c++){
+            cout << c;
+        }
+        cout << endl;
+    }
+}
+void pattern19(int n){
+    int space = 0;
+    int count = n;
+    for(int i = 1; i <=n; i++){
+        for(int j = count; j >= 1; j--){
+            cout << "*";
+        }
+        for(int j = 1; j <= space;j++){
+            cout << " ";
+        }
+        for(int j = count; j >= 1; j--){
+            cout << "*";
+        }
+        count--;
+        space = space + 2;
+        cout << endl;
+    }
+    int space1 = 2*(n-1);
+    for(int i = 1; i <= n; i++){
+        for(int j = 1; j <= i;j++){
+            cout << "*";
+        }
+        for(int j = 1 ; j<= space1;j++){
+            cout << " ";
+        }
+        for(int j = i; j >= 1; j--){
+            cout << "*";
+        }
+        space1 = space1 - 2;
+        cout << endl;
+    }
+}
 
+
+
+
+
+void pattern21(int n){
+    for(int i = 1; i <= n;i++){
+        for(int j = 1; j <= n; j++){
+            if(i > 1 && i < n && j > 1 && j < n){
+                cout << " ";
+            }
+            else{
+                cout << "*";
+            }
+        }
+        cout << endl;
+    }
+}
 
 
 
