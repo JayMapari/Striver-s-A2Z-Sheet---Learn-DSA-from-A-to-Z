@@ -294,7 +294,7 @@ void pattern21(int n){
     }
 }
 void pattern22(int n){
-    //??
+    //?? less processing power retrying soon!!
 }
 
 
