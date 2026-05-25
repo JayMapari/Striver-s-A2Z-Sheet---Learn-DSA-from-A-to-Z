@@ -299,6 +299,7 @@ void pattern22(int n){
 
 
 
+
 int main() {
     int t;
     cout << "Enter the test cases :";
