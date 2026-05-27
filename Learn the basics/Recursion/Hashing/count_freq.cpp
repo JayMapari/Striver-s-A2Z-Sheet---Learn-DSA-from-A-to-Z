@@ -17,5 +17,9 @@ int main(){
         ans.push_back({it.first, it.second});
     }
 
+    for(int i = 0;i < ans.size();i++){
+        cout << ans[i][0] << " " << ans[i][1] << endl;
+    }
+
     return 0;
 }
