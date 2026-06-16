@@ -18,7 +18,7 @@ int maxSubArray(vector<int>& nums) {
         return mini;
 
     }
- 
+
 int main(){
     vector<int>v1 = {1,2,3,4,5};
     cout << maxSubArray(v1);
