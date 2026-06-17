@@ -18,6 +18,7 @@ class Node{
     }
 };
 
+
 Node* convert(vector<int>& v, Node* head){
     Node* mover = head;
     for(int i = 1;i < v.size();i++){
