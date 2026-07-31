@@ -15,6 +15,7 @@ int minBitFlips(int start, int goal) {
 }
 
 
+
 int main(){
     int start = 10;
     int goal = 7;
