@@ -21,6 +21,7 @@ int beautySum(string s) {
     return ans;
 }
 
+
 int main(){
     string str = "aabcb";
     cout << beautySum(str);
