@@ -26,6 +26,7 @@ vector<int> twoOddNum(vector<int>& nums) {
     return {XOR2, XOR1};
 }
 
+
 int main() {
     vector<int> arr = {4, 2, 4, 5, 2, 3, 3, 1};
     vector<int> ans = twoOddNum(arr);
